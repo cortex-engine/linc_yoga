@@ -1,0 +1,106 @@
+<xml>
+    <files id="linc-yoga-depends">
+        <file name='${LINC_YOGA_PATH}lib/yoga/algorithm/AbsoluteLayout.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/algorithm/Align.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/algorithm/Baseline.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/algorithm/BoundAxis.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/algorithm/Cache.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/algorithm/CalculateLayout.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/algorithm/FlexDirection.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/algorithm/FlexLine.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/algorithm/PixelGrid.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/algorithm/SizingMode.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/algorithm/TrailingPosition.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/config/Config.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/debug/AssertFatal.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/debug/Log.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/enums/Align.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/enums/BoxSizing.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/enums/Dimension.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/enums/Direction.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/enums/Display.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/enums/Edge.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/enums/Errata.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/enums/ExperimentalFeature.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/enums/FlexDirection.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/enums/Gutter.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/enums/Justify.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/enums/LogLevel.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/enums/MeasureMode.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/enums/NodeType.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/enums/Overflow.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/enums/PhysicalEdge.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/enums/PositionType.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/enums/Unit.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/enums/Wrap.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/enums/YogaEnums.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/event/event.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/node/CachedMeasurement.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/node/LayoutableChildren.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/node/LayoutResults.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/node/Node.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/numeric/Comparison.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/numeric/FloatOptional.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/style/SmallValueBuffer.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/style/Style.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/style/StyleLength.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/style/StyleSizeLength.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/style/StyleValueHandle.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/style/StyleValuePool.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/YGConfig.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/YGEnums.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/YGMacros.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/YGNode.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/YGNodeLayout.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/YGNodeStyle.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/YGPixelGrid.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/YGValue.h' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/Yoga.h' />
+
+
+    </files>
+
+    <files id="linc-yoga">
+        <cache value="1" />
+        <depend files="linc-yoga-depends" />
+        <compilerflag value='-I${LINC_YOGA_PATH}linc/'/>
+        <compilerflag value='-I${LINC_YOGA_PATH}lib/'/>
+        <file name='${LINC_YOGA_PATH}lib/yoga/algorithm/AbsoluteLayout.cpp' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/algorithm/Baseline.cpp' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/algorithm/Cache.cpp' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/algorithm/CalculateLayout.cpp' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/algorithm/FlexLine.cpp' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/algorithm/PixelGrid.cpp' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/config/Config.cpp' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/debug/AssertFatal.cpp' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/debug/Log.cpp' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/event/event.cpp' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/node/LayoutResults.cpp' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/node/Node.cpp' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/YGConfig.cpp' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/YGEnums.cpp' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/YGNode.cpp' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/YGNodeLayout.cpp' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/YGNodeStyle.cpp' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/YGPixelGrid.cpp' />
+        <file name='${LINC_YOGA_PATH}lib/yoga/YGValue.cpp' />
+    </files>
+
+    <files id="haxe">
+        <compilerflag value='-I${LINC_YOGA_PATH}linc/'/>
+        <compilerflag value='-I${LINC_YOGA_PATH}lib/'/>
+        <compilerflag value='-I${LINC_YOGA_PATH}lib/'/>
+        <file name='${LINC_YOGA_PATH}linc/linc_yoga.cpp'/>
+    </files>
+
+    <section if="windows">
+        <compiler exe="cl.exe" id="MSVC">
+            <flag value="/Zc:__cplusplus"/>
+            <flag value="/std:c++20"/> <!-- we need cpp20 for this lib! -->
+        </compiler>
+    </section>
+
+    <target id="haxe">
+        <files id="linc-yoga" />
+    </target>
+</xml>
