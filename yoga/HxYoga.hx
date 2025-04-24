@@ -366,6 +366,9 @@ extern class Native_Yoga {
     @:native('YGNodeLayoutGetPadding')
     public static function layoutGetPadding(_node:Native_YGNodeRef, _edge:Native_YGEdge):cpp.Float32;
 
+    @:native('YGNodeLayoutGetBorder')
+    public static function layoutGetBorder(_node:Native_YGNodeRef, _edge:Native_YGEdge):cpp.Float32;
+
 
     // layout style
     @:native('YGNodeStyleSetDisplay')
@@ -547,6 +550,9 @@ extern class Native_Yoga {
     @:native('YGNodeStyleSetPaddingPercent')
     public static function styleSetPaddingPercent(_node:Native_YGNodeRef, _edge:Native_YGEdge, _padding:cpp.Float32):Void;
 
+    // border
+    @:native('YGNodeStyleSetBorder')
+    public static function styleSetBorder(_node:Native_YGNodeRef, _edge:Native_YGEdge, _border:cpp.Float32):Void;
 
     // margin
     @:native('YGNodeStyleSetMargin')
