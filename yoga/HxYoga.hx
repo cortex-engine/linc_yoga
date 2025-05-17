@@ -338,6 +338,9 @@ extern class Native_Yoga {
     @:native('YGNodeSetHasNewLayout')
     public static function nodeSetHasNewLayout(_node:Native_YGNodeRef, _val:Bool):Void;
 
+    @:native('YGNodeMarkDirty')
+    public static function markDirty(_node:Native_YGNodeRef):Void;
+
     // computed params
     @:native('YGNodeLayoutGetLeft')
     public static function layoutGetLeft(_node:Native_YGNodeRef):cpp.Float32;
